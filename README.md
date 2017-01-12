@@ -1,7 +1,7 @@
 # GenericLibrary
-How you use the generic object for java and lambda, optional jsp
-like this
-sitioRepository.findList(alias, params, SitioRegistro.class).stream().map(x ->{ return  new Object(){
+#How you use the generic object for java and lambda, optional jsp
+#like this
+#sitioRepository.findList(alias, params, SitioRegistro.class).stream().map(x ->{ return  new Object(){
 				public long id = x.getSubclasificacionInmueble().getClasificacionInmueble().getId();
 				public String name = x.getSubclasificacionInmueble().getClasificacionInmueble().getClasificacionInmueble();
 				public long getId() {
