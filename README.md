@@ -1,4 +1,4 @@
-# GenericLibrary
+# GenericLibrary (Library in Construction )
 # Library for generic object for java and lambda, optional  you can use jsp
 
 I   could not to  read a Object type from java inside the jsp so  a need to create a functiion for that because 
@@ -65,10 +65,13 @@ The uri would be used if we were accessing this directly, but instead we’ll be
 
        ...
 
-     </web-app>
+  </web-app>
      
-     Note we’re pointing to the generictaglib.tld file just created. And taglib-uri is how we’ll refer to it in the JSP:
      
-     <%@ taglib uri="http://localhost/generice" prefix="gr" %> 
+     
+     
+ Note we’re pointing to the generictaglib.tld file just created. And taglib-uri is how we’ll refer to it in the JSP:
+     
+     <%@ taglib uri="http://localhost/generic" prefix="gr" %> 
 
     ${gr:getValue(Object,"id")}
